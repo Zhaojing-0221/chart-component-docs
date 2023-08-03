@@ -6,7 +6,7 @@ import demoblock from 'vitepress-demoblock';
 
 export default defineConfig({
     dest: 'public',
-    base: '/chart-component-docs/',
+    base: '/zhaojing.github.io/',
     title: '图表组件库',
     description: '图表组件库-基于antv-g2(v4)的一个图表组件库',
     themeConfig: {

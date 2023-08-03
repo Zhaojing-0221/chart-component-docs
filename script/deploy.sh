@@ -8,7 +8,7 @@ set -e
 npm build
 
 # 打包生成静态文件
-npm docs:build
+npm run docs:build
 
 # 进入待发布的 dist/ 目录
 cd docs/.vitepress/dist
@@ -18,7 +18,8 @@ git add .
 git commit -m 'deploy'
 
 # 部署到 https://.github.io/
-git push -f git@github.com:zhaojing/.github.io.git master
+git push -f git@github.com:Zhaojing-0221/zhaojing.github.io.git master
+# https://github.com/Zhaojing-0221/zhaojing.github.io.git
 
 # 提交所有代码到github
 cd ../../../

@@ -7,13 +7,13 @@ set -e
 version=`jq -r .version package.json`
 
 # 打包构建
-pnpm build
+npm build
 
 # 发布到npm，pnpm(高性能的npm)
-pnpm publish
+npm publish
 
 # 升级 vue-amazing-ui 依赖版本
-pnpm up vue-amazing-ui@$version
+npm up vue-amazing-ui@$version
 
 # 提交版本更新代码到github
 git add .
