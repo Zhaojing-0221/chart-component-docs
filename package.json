@@ -1,0 +1,26 @@
+{
+  "name": "chart-component-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "@antv/g2": "4.2.10",
+    "@ruabick/md-demo-plugins": "^0.3.3",
+    "@ruabick/vitepress-demo-block": "^0.3.3",
+    "sass": "^1.62.1",
+    "vitepress": "^1.0.0-alpha.75"
+  },
+  "dependencies": {
+    "@vitepress-demo-preview/component": "^2.3.0",
+    "@vitepress-demo-preview/plugin": "^1.1.11",
+    "element-plus": "^2.3.5",
+    "luxon": "^3.3.0",
+    "vitepress-demo-editor": "^3.2.1",
+    "vitepress-demoblock": "^1.0.4"
+  }
+}
